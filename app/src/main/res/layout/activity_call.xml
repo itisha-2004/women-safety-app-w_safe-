@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#D8BFD8">
+
+    <!-- Police Image -->
+    <ImageView
+        android:id="@+id/policeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="458dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Police Image"
+        android:src="@drawable/police" />
+
+    <!-- Call Button -->
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Call police Helpline"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:padding="3dp"/>
+</LinearLayout>

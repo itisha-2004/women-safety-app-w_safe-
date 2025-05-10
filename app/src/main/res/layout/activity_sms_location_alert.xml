@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D8BFD8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C2185B"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="SMS Location Alert"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/fetch_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS Location Alert"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="#FA0909"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>

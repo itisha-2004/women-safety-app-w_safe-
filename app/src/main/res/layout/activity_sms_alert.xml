@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#D8BFD8">
+
+    <!-- Button to fetch the user's location -->
+    <Button
+        android:id="@+id/fetch_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Location"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+    <!-- EditText for entering emergency message -->
+    <EditText
+        android:id="@+id/emergencyMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your emergency message"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="5"
+        android:gravity="top"
+        android:padding="10dp" />
+
+    <!-- Button to send the SMS alert -->
+    <Button
+        android:id="@+id/sendAlertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Alert"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

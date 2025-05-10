@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#D8BFD8">
+
+    <!-- Full Width Clickable Header Section with pink background -->
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#C2185B"
+        android:padding="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        tools:ignore="Text">
+
+    <TextView
+        android:id="@+id/stay_safe_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stay Safe!"
+        android:textSize="75sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:fontFamily="cursive" />
+
+</LinearLayout>
+
+
+    <!-- Space between header and button -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/staySafeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click for Defense Tips"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:backgroundTint="#A151ED"
+
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
